@@ -1,0 +1,12 @@
+14/08/2021
+- Thêm landing page
+
+=> Time spent: 6:17
+
+13/08/2021
+- Tích hợp Apollo Server
+  Tham khảo tại đây: https://www.apollographql.com/docs/apollo-server/
+
+- Xoá biến môi trường HASURA_ADMIN_SECRET, APP_GRAPHQL_ENDPOINT
+
+=> Time spent: 4:23
