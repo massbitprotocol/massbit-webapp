@@ -1,8 +1,8 @@
 <template>
   <section class="bg-hero bg-no-repeat bg-cover bg-bottom pt-[80px]">
     <div class="container mx-auto">
-      <div class="grid items-center gap-4 lg:grid-cols-10">
-        <div class="col-span-4">
+      <div class="grid items-center gap-10 lg:grid-cols-2">
+        <div class="max-w-[655px]">
           <h2
             class="
               text-3xl
@@ -54,14 +54,13 @@
           </NuxtLink>
         </div>
 
-        <div class="col-span-6 relative flex justify-end w-full">
-          <div class="header__around absolute flex w-[45vw] h-[65vh]">
-            <HomeHeroRound class="z-0" />
-            <HomeHeroFore class="flex w-full h-full" />
-            <HomeHeroBack class="flex w-full h-full overflow-hidden" />
-          </div>
-          <HomeHeroImage class="z-[2] w-[45vw] h-[65vh]" />
-        </div>
+        <img
+          src="~assets/svg/home-hero.svg"
+          width="618"
+          height="591"
+          class="mx-auto w-full h-auto max-w-sm sm:max-w-lg lg:max-w-2xl -mb-4"
+          alt=""
+        />
       </div>
     </div>
   </section>
